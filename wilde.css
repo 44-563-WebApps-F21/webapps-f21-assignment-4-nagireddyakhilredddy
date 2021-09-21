@@ -27,6 +27,19 @@ p.stage_direction:hover {
     color:rgb(12, 106, 150);
 }
 
+h2.LADY:hover{
+    text-shadow: 2px 3px 4px rgb(157, 209, 15);
+    border-style:solid;
+    color:rgb(221, 218, 22);
+}
+
+h2.ERLYNNE:hover{
+    text-shadow: 2px 3px 4px rgb(214, 115, 21);
+    border-style: double;
+    color:rgb(63, 118, 201);
+
+}
+
 h2.LADY{
     font-family: sans-serif;
     color:rgb(219, 129, 12);
@@ -69,5 +82,23 @@ table.table_actors th {
     color: white;
 }
 
+ul.navbar_horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.navbar_horizontal li {
+    float:left;
+    background:rgb(157, 209, 15);
+}
+ul.navbar_horizontal a {
+    display:block;
+    padding:20px;
+    color: rgb(19, 18, 17);
+}
+ul.navbar_horizontal a:hover {
+    background-color: rgb(62, 134, 107);
+    color:thistle;
+}
 
 
