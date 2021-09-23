@@ -1,6 +1,4 @@
-body {
-    background-image: url('light.jpg');
-}
+
 
 h2{
    
@@ -25,18 +23,21 @@ p.stage_direction{
 p.stage_direction:hover {
     background-color:skyblue;
     color:rgb(12, 106, 150);
+
 }
 
 h2.LADY:hover{
     text-shadow: 2px 3px 4px rgb(157, 209, 15);
     border-style:solid;
     color:rgb(221, 218, 22);
+    filter: blur(1px);
 }
 
 h2.ERLYNNE:hover{
     text-shadow: 2px 3px 4px rgb(214, 115, 21);
     border-style: double;
     color:rgb(63, 118, 201);
+    filter: blur(2px);
 
 }
 
